@@ -1,0 +1,17 @@
+<registry xmlns:i18n="http://xml.zope.org/namespaces/i18n"
+          i18n:domain="plone">
+
+  <records interface="plone.app.querystring.interfaces.IQueryField"
+           prefix="plone.app.querystring.field.getObjPositionInParent">
+    <value key="title">Position in folder</value>
+    <value key="description">A custom position sort index</value>
+    <value key="enabled">False</value>
+    <value key="sortable">True</value>
+    <value key="operations">
+        <element>plone.app.querystring.operation.string.contains</element>
+        <element>plone.app.querystring.operation.string.is</element>
+    </value>
+    <value key="group">Text</value>
+  </records>
+
+</registry>
