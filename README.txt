@@ -1,6 +1,4 @@
 Introduction
 ============
 
-
-
-This product may contain traces of nuts.
+Adds a "position in folder" sort criteria for new-style collections.
